@@ -21,7 +21,7 @@ signing — see the verification instructions in each release, or
 
 ## Latest downloads
 
-Current versions: **`ang` 0.10.1** ([release notes](https://github.com/angareion/releases/releases/tag/ang-v0.10.1)) and **`angareion-mcp` 0.10.0** ([release notes](https://github.com/angareion/releases/releases/tag/angareion-mcp-v0.10.0)).
+Current versions: **`ang` 0.10.1** ([release notes](https://github.com/angareion/releases/releases/tag/ang-v0.10.1)) and **`angareion-mcp` 0.10.1** ([release notes](https://github.com/angareion/releases/releases/tag/angareion-mcp-v0.10.1)).
 Every file below has a matching `.sigstore.json` signature bundle next to it in the release, and each
 release carries a `checksums.txt`.
 
@@ -51,14 +51,14 @@ Checksums: [`checksums.txt`](https://github.com/angareion/releases/releases/down
 
 | Platform | Download |
 |---|---|
-| macOS, Apple silicon | [`angareion-mcp_0.10.0_darwin_arm64`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.0/angareion-mcp_0.10.0_darwin_arm64) |
-| macOS, Intel | [`angareion-mcp_0.10.0_darwin_amd64`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.0/angareion-mcp_0.10.0_darwin_amd64) |
-| Linux, x86-64 | [`angareion-mcp_0.10.0_linux_amd64`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.0/angareion-mcp_0.10.0_linux_amd64) |
-| Linux, ARM64 | [`angareion-mcp_0.10.0_linux_arm64`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.0/angareion-mcp_0.10.0_linux_arm64) |
-| Windows, x86-64 | [`angareion-mcp_0.10.0_windows_amd64.exe`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.0/angareion-mcp_0.10.0_windows_amd64.exe) |
-| Windows, ARM64 | [`angareion-mcp_0.10.0_windows_arm64.exe`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.0/angareion-mcp_0.10.0_windows_arm64.exe) |
+| macOS, Apple silicon | [`angareion-mcp_0.10.1_darwin_arm64`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.1/angareion-mcp_0.10.1_darwin_arm64) |
+| macOS, Intel | [`angareion-mcp_0.10.1_darwin_amd64`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.1/angareion-mcp_0.10.1_darwin_amd64) |
+| Linux, x86-64 | [`angareion-mcp_0.10.1_linux_amd64`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.1/angareion-mcp_0.10.1_linux_amd64) |
+| Linux, ARM64 | [`angareion-mcp_0.10.1_linux_arm64`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.1/angareion-mcp_0.10.1_linux_arm64) |
+| Windows, x86-64 | [`angareion-mcp_0.10.1_windows_amd64.exe`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.1/angareion-mcp_0.10.1_windows_amd64.exe) |
+| Windows, ARM64 | [`angareion-mcp_0.10.1_windows_arm64.exe`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.1/angareion-mcp_0.10.1_windows_arm64.exe) |
 
-Checksums: [`checksums.txt`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.0/checksums.txt)
+Checksums: [`checksums.txt`](https://github.com/angareion/releases/releases/download/angareion-mcp-v0.10.1/checksums.txt)
 
 ### Skill packs
 
