@@ -4,7 +4,7 @@
 
 # Angareion — Releases
 
-This repository hosts release artifacts for [Angareion](https://angareion.dev):
+This repository hosts release artifacts for [Angareion](https://angareion.com):
 
 - **`ang`** — the Angareion CLI
 - **`angareion-mcp`** — the Angareion MCP server
@@ -84,8 +84,8 @@ Two separate downloads, both listed above:
 2. **The local proxy**, `angareion-joule-local-proxy-vX.Y.Z.zip`, only if your Joule workspace cannot add the
    remote connector. It needs Node.js 18 or newer; unzip it and follow the `README.md` inside.
 
-Step-by-step guide: https://docs.angareion.dev/connect#joule-local-proxy
+Step-by-step guide: https://docs.angareion.com/connect#joule-local-proxy
 
 ## Everything else
 
-Docs: https://docs.angareion.dev
+Docs: https://docs.angareion.com
