@@ -34,6 +34,22 @@ The CLI and the MCP server are released separately (`ang-v*` and `angareion-mcp-
 curl -fsSL https://github.com/angareion/releases/releases/latest/download/install.sh | sh
 ```
 
+That works on Linux, macOS, and Git Bash on Windows. PowerShell and `cmd.exe` have no `sh`, so the
+one-liner will not run there; use the Windows steps below.
+
+**Windows (PowerShell)** — installs the x86-64 build as `ang.exe` in `%USERPROFILE%\.local\bin` and adds that
+folder to your user `PATH` (use the ARM64 download in the table below on ARM machines):
+
+```powershell
+$dir = "$env:USERPROFILE\.local\bin"
+New-Item -ItemType Directory -Force $dir | Out-Null
+Invoke-WebRequest "https://github.com/angareion/releases/releases/download/ang-v0.12.2/ang_0.12.2_windows_amd64.exe" -OutFile "$dir\ang.exe"
+[Environment]::SetEnvironmentVariable("Path", "$([Environment]::GetEnvironmentVariable('Path','User'));$dir", "User")
+```
+
+Open a new terminal, run `ang version`, then `ang install` to set up skills, the recall hook, and the
+MCP connection (the PowerShell steps do not run that menu for you).
+
 Or download the binary for your platform directly:
 
 | Platform | Download |
