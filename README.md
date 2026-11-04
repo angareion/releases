@@ -21,7 +21,7 @@ signing — see the verification instructions in each release, or
 
 ## Latest downloads
 
-Current versions: **`ang` 0.12.2** ([release notes](https://github.com/angareion/releases/releases/tag/ang-v0.12.2)) and **`angareion-mcp` 0.12.2** ([release notes](https://github.com/angareion/releases/releases/tag/angareion-mcp-v0.12.2)).
+Current versions: **`ang` 0.12.3** ([release notes](https://github.com/angareion/releases/releases/tag/ang-v0.12.3)) and **`angareion-mcp` 0.12.2** ([release notes](https://github.com/angareion/releases/releases/tag/angareion-mcp-v0.12.2)).
 Every file below has a matching `.sigstore.json` signature bundle next to it in the release, and each
 release carries a `checksums.txt`.
 
@@ -43,7 +43,7 @@ folder to your user `PATH` (use the ARM64 download in the table below on ARM mac
 ```powershell
 $dir = "$env:USERPROFILE\.local\bin"
 New-Item -ItemType Directory -Force $dir | Out-Null
-Invoke-WebRequest "https://github.com/angareion/releases/releases/download/ang-v0.12.2/ang_0.12.2_windows_amd64.exe" -OutFile "$dir\ang.exe"
+Invoke-WebRequest "https://github.com/angareion/releases/releases/download/ang-v0.12.3/ang_0.12.3_windows_amd64.exe" -OutFile "$dir\ang.exe"
 [Environment]::SetEnvironmentVariable("Path", "$([Environment]::GetEnvironmentVariable('Path','User'));$dir", "User")
 ```
 
@@ -54,14 +54,14 @@ Or download the binary for your platform directly:
 
 | Platform | Download |
 |---|---|
-| macOS, Apple silicon | [`ang_0.12.2_darwin_arm64`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/ang_0.12.2_darwin_arm64) |
-| macOS, Intel | [`ang_0.12.2_darwin_amd64`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/ang_0.12.2_darwin_amd64) |
-| Linux, x86-64 | [`ang_0.12.2_linux_amd64`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/ang_0.12.2_linux_amd64) |
-| Linux, ARM64 | [`ang_0.12.2_linux_arm64`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/ang_0.12.2_linux_arm64) |
-| Windows, x86-64 | [`ang_0.12.2_windows_amd64.exe`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/ang_0.12.2_windows_amd64.exe) |
-| Windows, ARM64 | [`ang_0.12.2_windows_arm64.exe`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/ang_0.12.2_windows_arm64.exe) |
+| macOS, Apple silicon | [`ang_0.12.3_darwin_arm64`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/ang_0.12.3_darwin_arm64) |
+| macOS, Intel | [`ang_0.12.3_darwin_amd64`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/ang_0.12.3_darwin_amd64) |
+| Linux, x86-64 | [`ang_0.12.3_linux_amd64`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/ang_0.12.3_linux_amd64) |
+| Linux, ARM64 | [`ang_0.12.3_linux_arm64`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/ang_0.12.3_linux_arm64) |
+| Windows, x86-64 | [`ang_0.12.3_windows_amd64.exe`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/ang_0.12.3_windows_amd64.exe) |
+| Windows, ARM64 | [`ang_0.12.3_windows_arm64.exe`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/ang_0.12.3_windows_arm64.exe) |
 
-Checksums: [`checksums.txt`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/checksums.txt)
+Checksums: [`checksums.txt`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/checksums.txt)
 
 ### Angareion MCP server (`angareion-mcp`)
 
@@ -80,13 +80,13 @@ Checksums: [`checksums.txt`](https://github.com/angareion/releases/releases/down
 
 | For | Download |
 |---|---|
-| Joule Work Desktop (import under **Extensions → Skills → Import**; do not unzip) | [`angareion-skills-joule-v0.12.2.zip`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/angareion-skills-joule-v0.12.2.zip) |
-| Joule local proxy (needs Node.js 18 or newer; unzip and follow its `README.md`) | [`angareion-joule-local-proxy-v0.12.2.zip`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/angareion-joule-local-proxy-v0.12.2.zip) |
-| Claude | [`angareion-skills-claude-v0.12.2.zip`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/angareion-skills-claude-v0.12.2.zip) |
-| Perplexity | [`angareion-skills-perplexity-v0.12.2.zip`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/angareion-skills-perplexity-v0.12.2.zip) |
-| Codex plugin | [`angareion-codex-plugin-v0.12.2.tar.gz`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/angareion-codex-plugin-v0.12.2.tar.gz) |
-| All skills, as a zip | [`angareion-skills-v0.12.2.zip`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/angareion-skills-v0.12.2.zip) |
-| All skills, as a tarball | [`angareion-skills-v0.12.2.tar.gz`](https://github.com/angareion/releases/releases/download/ang-v0.12.2/angareion-skills-v0.12.2.tar.gz) |
+| Joule Work Desktop (import under **Extensions → Skills → Import**; do not unzip) | [`angareion-skills-joule-v0.12.3.zip`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/angareion-skills-joule-v0.12.3.zip) |
+| Joule local proxy (needs Node.js 18 or newer; unzip and follow its `README.md`) | [`angareion-joule-local-proxy-v0.12.3.zip`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/angareion-joule-local-proxy-v0.12.3.zip) |
+| Claude | [`angareion-skills-claude-v0.12.3.zip`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/angareion-skills-claude-v0.12.3.zip) |
+| Perplexity | [`angareion-skills-perplexity-v0.12.3.zip`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/angareion-skills-perplexity-v0.12.3.zip) |
+| Codex plugin | [`angareion-codex-plugin-v0.12.3.tar.gz`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/angareion-codex-plugin-v0.12.3.tar.gz) |
+| All skills, as a zip | [`angareion-skills-v0.12.3.zip`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/angareion-skills-v0.12.3.zip) |
+| All skills, as a tarball | [`angareion-skills-v0.12.3.tar.gz`](https://github.com/angareion/releases/releases/download/ang-v0.12.3/angareion-skills-v0.12.3.tar.gz) |
 
 Looking for an older version? Browse the [`ang-v*` releases](https://github.com/angareion/releases/releases?q=ang-v)
 and the [`angareion-mcp-v*` releases](https://github.com/angareion/releases/releases?q=angareion-mcp-v).
